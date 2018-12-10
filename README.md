@@ -30,9 +30,15 @@ The Diagram below shows the use case for each user:
 ![Case use Diagram](https://github.com/HalaKadeim/MovieRecommender/blob/master/Images/Case%20User%20Diagram%20For%20Moive%20Recommender.png)
 
 ##Non-functional Requirements
+
 ####Performance Requirements
+
 Performance of making recommendation and updating this recommendation is very important issue because the system is designed to be real-timed. Means data processing should be very fast and not noticible by the user. Of course system should handle multiple users at the same time and update the recommendations after each choice the user makes.
+
 ####Security
+
 Database has to be reached securely and its data should not be broken. It also should not change except for the admin’s updates. Moreover, since our dataset contain some personal information of user, security design is important in the web service.
+
 ####Usability
+
 since the product is designed to provide service for every one, it is designed to be easily used by everyone.
